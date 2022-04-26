@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Login Form UI Design</title>
+</head>
+
+<body>
+    <!-- section选定任意一块区域 -->
+    <section>
+        <div class="box">
+            <div class="form">
+                <h2>Login</h2>
+                <!-- <form>表单域  <action>信息提交目的地地址 -->
+                <form action="#">
+                    <div class="inputBx">
+                        <input type="text" name="username" id="username" placeholder="Username">
+                        <!-- <alt>替换文本，如果图片无法显示，可以使用文字替换图片。 -->
+                        <img src="img/user.png" alt="" width="30px" height="30px">
+                    </div>
+                    <div class="inputBx">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <img src="img/lock.png" alt="" width="30px" height="30px">
+                    </div>
+                    <label class="remember" for=""> <input type="checkbox">Remember Me</label>
+                    <div class="inputBx">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+                <p>Forget <a href="#">Password</a></p>
+                <p>Nedd an <a href="#">Account</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
